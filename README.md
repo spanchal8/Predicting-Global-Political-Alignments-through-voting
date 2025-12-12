@@ -1,4 +1,3 @@
-# Predicting-Global-Political-Alignments-through-voting
 # UN Voting Prediction ML Project
 
 Predicting UN member states' voting behavior on major resolutions using socioeconomic and military indicators.

@@ -1,0 +1,50 @@
+# ============================================================================
+# UN Voting Prediction ML Project - Requirements
+# ============================================================================
+# Python 3.11+ required
+# 
+# Installation:
+#   pip install -r requirements.txt
+#
+# For GPU acceleration (NVIDIA RTX 4060 or compatible):
+#   Install CUDA toolkit first, then use: pip install xgboost[gpu]
+# ============================================================================
+
+# Core Data Science Libraries
+# Note: Install numpy first to avoid binary incompatibility issues
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+
+# Machine Learning Libraries
+scikit-learn>=1.3.0,<2.0.0
+xgboost>=2.0.0,<3.0.0
+
+# Visualization Libraries
+matplotlib>=3.7.0,<4.0.0
+seaborn>=0.12.0,<1.0.0
+
+# Data Acquisition (Kaggle datasets)
+kagglehub>=0.2.0
+
+# Standard Library (included for reference, no installation needed)
+# - os
+# - pathlib
+# - warnings
+
+# ============================================================================
+# Optional Dependencies
+# ============================================================================
+
+# For GPU acceleration with XGBoost (NVIDIA GPU required)
+# Uncomment if you have CUDA 11.8+ installed:
+# xgboost[gpu]>=2.0.0
+
+# For Jupyter Notebook development (optional)
+# jupyter>=1.0.0
+# ipykernel>=6.25.0
+# notebook>=7.0.0
+
+# For enhanced visualization (optional)
+# plotly>=5.17.0
+# bokeh>=3.2.0
+
